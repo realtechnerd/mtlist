@@ -7,5 +7,9 @@ module.exports = {
    variants: {
      extend: {},
    },
-   plugins: [],
+   corePlugins: {
+    preflight: false,
+    container: false
+   },
+  plugins: [],
  }
