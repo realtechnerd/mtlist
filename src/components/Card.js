@@ -38,7 +38,7 @@ export default function Card(props) {
                     </ReactReadMoreReadLess>
                     <br/>
                     <div className="overflow-hidden mb-2">
-                        <button className="md:float-left" {...(props.clients && { onClick: handleOpen })} style={{cursor: !props.clients && "text", userSelect: !props.clients && "text"}}><h5 className="mb-0 mt-2 text-black"><b>Online Clients:</b> {props.clients}</h5></button>
+                        <button className="md:float-left border-none bg-white" {...(props.clients && { onClick: handleOpen })} style={{cursor: !props.clients && "text", userSelect: !props.clients && "text"}}><h5 className="mb-0 mt-2 text-black"><b>Online Clients:</b> {props.clients}</h5></button>
                         <h5 className="mb-0 mt-2.5 text-black md:float-right"><b>Max Clients:</b> {props.max_clients}</h5>
                     </div>
                     <a href={props.url} target="_blank" className="mb-0 text-black" style={{display: !props.url && "none"}}><h6><span>{props.url}</span></h6></a>  
