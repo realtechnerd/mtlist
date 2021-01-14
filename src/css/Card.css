@@ -1,0 +1,11 @@
+.card {
+    border-radius: 1rem !important;
+    margin-bottom: 1rem;
+    font-family: Inter;
+}
+.modal90 {
+    font-family: Inter !important;
+}
+.more-info {
+    background-color: #53ac56;
+}

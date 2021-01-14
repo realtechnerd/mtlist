@@ -1,0 +1,18 @@
+.ServInfo {
+    font-family: Inter;
+}
+.Search input {
+    font-family: Inter;
+}
+.Search button {
+    background-color: #53ac56;
+    font-family: Inter;
+}
+@media only screen and (max-width: 600px) {
+    .Search button {
+        margin-left: 0px !important;
+        margin-top: 10px;
+        width: 75%;
+        padding: 10px !important;
+    }
+}
